@@ -1,0 +1,345 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colors to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colors to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border color to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MY STYLES */
+
+.main-wrapper {
+    margin: 0 auto;
+    width: 1000px;
+}
+
+.wrapper {
+    margin: 0 auto;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #CCC;
+}
+
+header nav {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+header nav ul {
+    float: left;
+}
+
+header nav ul li {
+    float: left;
+    list-style: none;
+}
+
+header nav ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 63px;
+}
+
+header .nav-login {
+    float: right;
+}
+
+header .nav-login form {
+    float: left;
+    padding-top: 15px;
+}
+
+header .nav-login form input {
+    float: left;
+    width: 140px;
+    height: 30px;
+    padding: 0px 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    color: #111;
+    font-size: 14px;
+}
+
+header .nav-login form button {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-right: 10px;
+    border: none;
+    color: #111;
+    background-color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+header .nav-login form button:hover {
+    background-color: #ccc;
+}
+
+header .nav-login a {
+    display: block;
+    width: 60px;
+    height: 60px;
+    background-color: white;
+    border: none;
+    float: left;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 63px;
+}
+
+/* Homepage */
+
+.wrapper {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.home-page h2 {
+    font-family: arial;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+}
+
+.home-page-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    width: 230px;
+    margin-left: 40vw;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: 2px red solid;
+}
+
+.home-page-container h4 {
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+.home-page-container p {
+    font-family: arial;
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 300px;
+}
+
+/*signup.php */
+
+.signup-form {
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.signup-form input {
+    float: left;
+    width: 90%;
+    height: 40px;
+    padding: 0px 5%;
+    border: none;
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #111;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+
+.signup-form button {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #111;
+}
+
+
+/* Gallery styles */
+
+.gallery-links h2 {
+    font-family: arial;
+    font-size: 28px;
+    font-weight: 600;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    border: 2px red solid;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-bottom: 35px;
+}
+
+.gallery-container a {
+    width: 230px;
+    margin: 20px 10px 0;
+}
+
+.gallery-container a div {
+    width: 100%;
+    height: 235px;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.gallery-container a h3 {
+    font-family: arial;
+    font-size: 20px;
+    font-weight: 500px;
+}
+
+/* Footer Styling */
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 30px;
+}
+
+footer ul {
+    float: left;
+    
+}
+
+footer ul li {
+    float: left;
+    list-style: none;
+
+}
